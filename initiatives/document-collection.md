@@ -6,7 +6,7 @@
 
 Pilot a checklist that shows required, received, and missing documents. Staff define requirements and assess acceptability; the pilot helps people identify the next action.
 
-[Decision 002](../decisions/002-focused-pilot.md) proposes this change. While its PR is open, this revision is a candidate; the [brief on main](https://github.com/nawaaz-korvol/product-context-demo/blob/main/initiatives/document-collection.md) remains authoritative. After merge, this becomes the accepted demo direction. Acceptance never means the pilot has shipped.
+[Decision 002](../decisions/002-focused-pilot.md) explains the rationale and the earlier direction this revision replaces. The [repository reading convention](../README.md) explains how to distinguish a proposed revision from accepted direction.
 
 Nothing has been implemented or released.
 
