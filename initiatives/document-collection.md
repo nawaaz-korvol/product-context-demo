@@ -2,34 +2,37 @@
 
 **Context:** fictional demonstration. **Decision owner:** product lead (scenario role).
 
-## Current direction
+## Direction described by this revision
 
-Explore an end-to-end document-onboarding assistant: request documents, show what is missing, send reminders, and assess whether submissions are complete.
+Pilot a checklist that shows required, received, and missing documents. Staff define requirements and assess acceptability; the pilot helps people identify the next action.
 
-This is the baseline direction in the example, not a delivery commitment. Nothing has been implemented or released. [Decision 001](../decisions/001-initial-direction.md) explains its origin.
+[Decision 002](../decisions/002-focused-pilot.md) explains the rationale and the earlier direction this revision replaces. The [repository reading convention](../README.md) explains how to distinguish a proposed revision from accepted direction.
+
+Nothing has been implemented or released.
 
 ## Problem and intended outcome
 
-The fictional team suspects that applicants and operations staff lose time finding the next document-related action. The first task is to learn which step causes the most avoidable work.
+[Synthetic observations](../research/002-workflow-observations.md) suggest that visibility of missing documents may be a useful first problem to test. They do not demonstrate demand or product effectiveness.
 
-**Hypothesis:** a shared view of required and received documents could reduce clarification exchanges. There is no measured baseline or validated outcome yet.
+**Hypothesis:** showing the next missing document will reduce clarification exchanges.
 
-## Scope to investigate
+**Proposed measurement:** compare clarification exchanges and time to identify the next required document against the existing workflow. A real pilot still needs a baseline, success threshold, representative participants, and review of mistakes; no result or target has been established.
 
-- Request and collect documents.
-- Show outstanding requirements.
-- Send reminders.
-- Assess completeness of submitted documents.
+## Proposed pilot scope
 
-This is discovery scope, not a list of committed features. [Initial intake](../research/001-initial-intake.md) contains only a synthetic stakeholder request, not customer validation.
+- A staff-defined checklist of required documents.
+- Explicit required, received, and missing states.
+- A visible next action for applicants and operations staff.
+
+**Deferred:** automatic reminders, automatic document assessment, and full onboarding orchestration. Received does not mean accepted. Staff remain responsible for acceptability decisions.
 
 ## Open questions
 
-- Which step is the main bottleneck: requesting, chasing, or assessing documents?
-- Can staff provide a reliable list of requirements?
-- Who decides a submitted document is acceptable?
-- What baseline should a pilot measure?
+- Can staff define requirements consistently, including exceptions?
+- Will users understand received versus accepted?
+- What baseline and success threshold would justify continuing?
+- Does narrowing scope leave an important workflow unaddressed?
 
 ## Delivery link
 
-See the [discovery task](https://github.com/nawaaz-korvol/product-context-demo/issues/1). The tracker owns execution state, assignee, and due date; this brief owns product context.
+The [discovery task](https://github.com/nawaaz-korvol/product-context-demo/issues/1) owns execution state, assignee, and due date. Merging this proposal does not close that task or authorize implementation.
