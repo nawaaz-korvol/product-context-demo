@@ -4,6 +4,8 @@ A small example of keeping product context useful to people and agents as decisi
 
 **Everything in this example is fictional.** Research, priorities, and product decisions are teaching fixtures, not company information or evidence of a shipped product. There is no application here.
 
+This example demonstrates shared context and decision history. It does not yet cover technical requirements, architecture, roadmaps, task delegation, or feeding implementation outcomes back into the documents.
+
 ## The two-minute tour
 
 A team starts with a broad document-onboarding idea. New observations suggest a smaller pilot. How does everyone catch up without rereading every conversation?
