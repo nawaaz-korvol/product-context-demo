@@ -32,4 +32,4 @@ This is discovery scope, not a list of committed features. [Initial intake](../r
 
 ## Delivery link
 
-See the [demo tracker](https://github.com/nawaaz-korvol/product-context-demo/issues) for the discovery task. The tracker owns execution state, assignee, and due date; this brief owns product context.
+See the [discovery task](https://github.com/nawaaz-korvol/product-context-demo/issues/1). The tracker owns execution state, assignee, and due date; this brief owns product context.
